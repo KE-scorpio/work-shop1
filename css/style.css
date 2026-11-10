@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Blue-500: hsl(215, 51%, 70%);
+  --Cyan-400: hsl(178, 100%, 50%);
+  --Blue-950: hsl(217, 54%, 11%);
+  --Blue-900: hsl(216, 50%, 16%);
+  --Blue-800: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: var(--Blue-950);
+  color: var(--Blue-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.offer-card {
+  max-width: 280px;
+  margin: auto;
+  padding: 25px;
+  background-color: var(--Blue-900);
+  border-radius: 20px;
+  color: var(--Blue-800)
+}
+.card-header img {
+  border-radius: 15px;
+}
+
+.card-body {
+  margin: 20px;
+}
+.card-title {
+  color: var(--White);
+}
+
+.card-desc {
+  margin-block: 20px;
+}
+
+.offer-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-wrapper,
+.time-wrapper {
+  display: flex;
+  align-items: center;
+ font-size: 10px;
+  gap: 10px;
+  color: var(--Cyan-400)
+  
+  
+}
+
+.offer-wrapper img,
+.time-wrapper img {
+  width: auto;
+}
+.card-footer{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 15px;
+    border-top: solid 5px var(--Blue-500);
+    padding-top: 10px;
+    color: var(--White)
+
+}
+.creator-name{
+    color: var(--Cyan-400)
+}
+    
+
+.avatar{
+    width: 30px;
+    
+}
+
+
+.card-footer img{
+    border: solid 1px var(--Cyan-400);
+    border-radius: 50px;
+
+}
